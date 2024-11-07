@@ -118,8 +118,9 @@ background-color: #FDF3DD;
 }
 
 .dos {
-    background-color: #D6E8F7;
+    background-color: #CAAACD;
 }
+
 
 .tres {
 background-color: #CB962E;
@@ -146,13 +147,26 @@ background-color: #EF601E;
     }
     
 
+   .c:hover {
+
+    color:black;
+   }
+
 
 @media only screen and (max-width:480px) {
     .grid-container {
 
-        grid-template-columns: repeat(2, 1fr); /* 4 columnas de igual tamaño */
-        grid-template-rows: repeat(4, 200px); /* 2 filas con altura de 200px */
+        grid-template-columns: repeat(2, 1fr); 
+        grid-template-rows: repeat(4, 200px);
 
     }
-   }
+    img {
+        height:150px ;
+        
+    }
+
+    .uno {
+        display: none;
+    }
    
+}
