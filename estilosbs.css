@@ -1,0 +1,101 @@
+* 
+{
+    font-family: "Roboto Mono", serif;
+}
+
+.navega {
+background-color: #EFEEFC;
+height: 10%;
+border: solid black 2px;
+
+
+}
+
+.navega-bar{
+    
+    font-size: 1.5rem;
+   display: flex;
+   justify-content:space-around  ;
+   align-items: center;
+   
+}
+
+.navega-bar a {
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+
+}
+
+.imagen {
+height: 100%;
+background-size: cover;
+
+}
+
+
+.arriba {
+
+    background-color: #EFEEFC;
+    height: 70%;
+   
+}
+
+.izq {
+    border-bottom: solid black 2px;
+    border-right: solid black 2px;
+    
+}
+
+.der {
+
+    border-bottom  : solid black 2px;
+  
+    
+}
+
+
+
+
+
+
+.medio {
+    background-color: #F3E2D8;
+    height: 70%;
+  }
+
+
+.der, .medio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.boton-cuadrado {
+    background-color: white;     
+    color: black;                
+    border: 2px solid black;     
+    padding: 10px 20px;          
+    font-size: 16px;            
+    
+}
+
+.rosa {
+    background-color: pink;
+   
+}
+
+.abajo {
+    background-color: #FFFFFF;
+    height: 70%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+}
+
+.parrafo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
